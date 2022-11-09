@@ -1,0 +1,319 @@
+body{
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: auto;
+}
+
+
+
+
+.navlinks a{
+    height: 48px;
+    text-decoration: none;
+    color: #1d1d21;
+}
+.menu{
+    width: 10%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.container {
+    margin-top: 20px;
+    width: 400px;
+    margin-bottom: 70px;
+}
+
+.web3mimg{
+    width: 400px;
+    height: 50vh;
+    background-image: url(images/image-web-3-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.read{
+    background-color: #f15c55;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 60px;
+}
+
+.read a{
+   text-decoration: none;
+   color: white;
+}
+
+.new {
+    background-color: #1d1d21;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section2{
+    margin-bottom: 50px;
+}
+
+.s3div1{
+    display: flex;
+    flex-direction: row;
+    height:130px;
+}
+
+.s3div2{
+    display: flex;
+    flex-direction: row;
+    height:130px;
+    margin-top: 50px;
+}
+
+.s3div3{
+    display: flex;
+    flex-direction: row;
+    height:130px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.box1{
+    width: 200px;
+    height: 150px;
+    background-image: url(images/image-retro-pcs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box2{
+    width: 170px;
+    height: 150px;
+    background-image: url(images/image-top-laptops.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box3{
+    width: 200px;
+    height: 150px;
+    background-image: url(images/image-gaming-growth.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box1text{
+padding-left: 20px;
+
+}
+
+.section3 a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+    .navlinks{
+        display: none;
+        background: white;
+        position: static;
+    }
+
+    .navlinks ul{
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    .navlinks li {
+        display: none;
+    }
+
+    .navlinks a {
+        width: 95%;
+    }
+
+
+    .display.block > li {
+        display: block !important;
+    }
+}
+@media screen and (min-width: 1280px) {
+    body{
+        width: 1440px;
+        height: auto;
+        margin-top: 30px;
+        font-family: Inter;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    
+    }
+
+    .menu{
+       display: none;
+    }
+
+   
+
+    .navlinks {
+        display: flex;
+        
+        padding-right: 100px;
+        
+    }
+
+    .navlinks a {
+        text-decoration: none;
+        color: black;
+    }
+
+ 
+
+
+
+    
+
+    main{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .web3mimg{
+        width: auto;
+        height: 50vh;
+        background-image: url(images/image-web-3-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero {
+        width: 70%;
+        height: 100%;
+        margin-right: 50px;
+    }
+
+    .logo{
+        padding-left: 100px;
+    }
+
+    .container {
+        width: auto;
+        margin-bottom: 70px;
+    }
+
+    .desktop {
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section2{
+        margin-top: 20px;
+        width: 30%;
+        height: 100%;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header {
+        width: 50%;
+    }
+
+    .h1text {
+        font-size: 1.5rem;
+        padding-right: 10px;
+    }
+
+    .disc{
+        width: 50%;
+        
+    }
+
+    .dtext{
+        font-size: 1.2rem;
+        padding-bottom: 30px;
+    }
+
+    .section3{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .section3 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .trans:hover {
+        color: #f8605d;
+    }
+
+    .s3div1{
+        display: flex;
+        flex-direction: row;
+        height:200px;
+    }
+    
+    .s3div2{
+        display: flex;
+        flex-direction: row;
+        height:200px;
+        margin-top: 0px;
+    
+    }
+    
+    .s3div3{
+        display: flex;
+        flex-direction: row;
+        height:200px;
+        margin-top: 0px;
+    }
+
+    .read:hover{
+        background-color: #1d1d21;
+        height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 60px;
+    }
+}
+
